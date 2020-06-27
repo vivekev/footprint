@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="squad members" max_length="40" name="x_94170_footprint_squad_members" type="collection">
+        <element label="emp id" max_length="40" name="emp_id" type="string"/>
+        <element label="Fuctional Manager" max_length="40" name="fuctional_manager" type="string"/>
+        <element choice="1" label="domain" max_length="40" name="u_domain" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Systems and Tools" sequence="0" value="Systems and Tools"/>
+            </choice>
+        </element>
+        <element label="L1" max_length="40" name="u_lm" type="string"/>
+        <element label="L2" max_length="40" name="u_sm" type="string"/>
+        <element label="squad" max_length="40" name="u_squad" type="string"/>
+        <element choice="1" label="subdomain" max_length="40" name="u_subdomain" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ITSM and Devices@IBM" sequence="0" value="ITSM and Devices@IBM"/>
+            </choice>
+        </element>
+        <element label="L3" max_length="40" name="u_thrid" type="string"/>
+    </element>
+</database>

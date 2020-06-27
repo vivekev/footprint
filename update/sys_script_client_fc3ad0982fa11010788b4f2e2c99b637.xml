@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>test</description>
+        <field>u_boolean_14</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	g_form.showFieldMsg('u_domains','<p><span class="wrapper-xs r m-t-xs ng-binding ng-scope bg-danger">test<strong>raja@gmail.com</strong>test</span></p>');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 17:19:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc3ad0982fa11010788b4f2e2c99b637</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sys_script_client_fc3ad0982fa11010788b4f2e2c99b637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 12:39:29</sys_updated_on>
+        <table>x_94170_footprint_digital_footprint</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

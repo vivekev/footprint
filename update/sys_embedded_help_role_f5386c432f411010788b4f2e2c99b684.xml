@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_94170_footprint.digital_footprint_user" name="x_94170_footprint.digital_footprint_user">fd386c432f411010788b4f2e2c99b681</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-01 10:49:52</sys_created_on>
+        <sys_id>f5386c432f411010788b4f2e2c99b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fd386c432f411010788b4f2e2c99b681</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f5386c432f411010788b4f2e2c99b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-01 10:49:52</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Digital Security Footprint (DSF)" section_id="201115722ff45010788b4f2e2c99b693" sys_domain="global" table="x_94170_footprint_digital_decurity_foot_print" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>domain</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:45:13</sys_created_on>
+            <sys_id>ad2728432f411010788b4f2e2c99b6a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sub_domain</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:45:13</sys_created_on>
+            <sys_id>252728432f411010788b4f2e2c99b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:45:13</sys_created_on>
+            <sys_id>a92728432f411010788b4f2e2c99b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tribe</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:45:13</sys_created_on>
+            <sys_id>212728432f411010788b4f2e2c99b6a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>squad</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:45:13</sys_created_on>
+            <sys_id>a52728432f411010788b4f2e2c99b6a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Digital Security Footprint (DSF)</caption>
+            <header>false</header>
+            <name>x_94170_footprint_digital_decurity_foot_print</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-19 08:54:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201115722ff45010788b4f2e2c99b693</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Digital Security Footprint (DSF)</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_ui_section_201115722ff45010788b4f2e2c99b693</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:45:13</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

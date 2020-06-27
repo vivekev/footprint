@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Device Cleaning" section_id="004a233b2f059010788b4f2e2c99b600" sys_domain="global" table="x_94170_footprint_digital_footprint" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>e622a0102f11d010788b4f2e2c99b6ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <text>Ensure that you devices(s) is/are well managed.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>ea22a0102f11d010788b4f2e2c99b6ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e622a0102f11d010788b4f2e2c99b6ef</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>ae22a0102f11d010788b4f2e2c99b6ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_1</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>2622a0102f11d010788b4f2e2c99b6f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>aa22a0102f11d010788b4f2e2c99b6f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>2222a0102f11d010788b4f2e2c99b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ea22a0102f11d010788b4f2e2c99b6ef</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>a622a0102f11d010788b4f2e2c99b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_3</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>2e22a0102f11d010788b4f2e2c99b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_4</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-05 07:35:51</sys_created_on>
+            <sys_id>a222a0102f11d010788b4f2e2c99b6f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-05 07:35:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Device Cleaning</caption>
+            <header>false</header>
+            <name>x_94170_footprint_digital_footprint</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 08:53:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>004a233b2f059010788b4f2e2c99b600</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Device Cleaning</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_ui_section_004a233b2f059010788b4f2e2c99b600</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 08:53:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

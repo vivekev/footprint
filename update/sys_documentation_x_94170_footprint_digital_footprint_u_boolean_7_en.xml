@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_boolean_7" label="Update access controls to only give access to those who need to know. The intran" language="en" table="x_94170_footprint_digital_footprint">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_7</element>
+            <help/>
+            <hint/>
+            <label>Update access controls to only give access to those who need to know. The intran</label>
+            <language>en</language>
+            <name>x_94170_footprint_digital_footprint</name>
+            <plural>Update access controls to only give access to those who need to know. The intran</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 08:55:37</sys_created_on>
+            <sys_id>1ddaa73b2f059010788b4f2e2c99b68f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Update access controls to only give access to those who need to know. The intranet includes non-IBMers.</sys_name>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_documentation_x_94170_footprint_digital_footprint_u_boolean_7_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 08:55:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

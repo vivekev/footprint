@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>vivek page - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="hari">84231a0d2f811010788b4f2e2c99b62a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 13:59:12</sys_created_on>
+        <sys_id>2c0a56412fc11010788b4f2e2c99b6e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>vivek page - Container 2</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sp_container_2c0a56412fc11010788b4f2e2c99b6e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 14:00:20</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="footprint">811127522f781010788b4f2e2c99b6e4</application>
+        <file_path/>
+        <instance_id>573eb4fe6f1b3580869e7b2f5d3ee45a</instance_id>
+        <instance_name>dev15888</instance_name>
+        <name>sp_container_2c0a56412fc11010788b4f2e2c99b6e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>vivek page - Container 2</name><order>2</order><sp_page display_value="hari">84231a0d2f811010788b4f2e2c99b62a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-26 13:59:12</sys_created_on><sys_id>2c0a56412fc11010788b4f2e2c99b6e3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>vivek page - Container 2</sys_name><sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package><sys_policy/><sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope><sys_update_name>sp_container_2c0a56412fc11010788b4f2e2c99b6e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-26 14:00:20</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1341151059</payload_hash>
+        <record_name>vivek page - Container 2</record_name>
+        <reverted_from/>
+        <source>811167522f781010788b4f2e2c99b60a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 14:00:20</sys_created_on>
+        <sys_id>9d4a1a012fc11010788b4f2e2c99b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1725148bbf60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 14:00:20</sys_updated_on>
+        <type>Container</type>
+        <update_guid>194a1a011fc110106a6c260494c9701f</update_guid>
+        <update_guid_history>194a1a011fc110106a6c260494c9701f:1341151059,680a5641a1c11010110d9534667be5e4:2107951220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vivek page - Container 2">9e4a16412fc11010788b4f2e2c99b6e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 14:00:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>0f5c9dcb2eaf4e1c95ab3eefa7f83224</sys_id>
+        <sys_metadata>2c0a56412fc11010788b4f2e2c99b6e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vivek page - Container 2</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_scope_delete display_value="">6b7c92e6baf345d6aea87b0b97949301</sys_scope_delete>
+        <sys_update_name>sp_container_2c0a56412fc11010788b4f2e2c99b6e3</sys_update_name>
+        <sys_update_version display_value="sp_container_2c0a56412fc11010788b4f2e2c99b6e3">9d4a1a012fc11010788b4f2e2c99b61f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 14:00:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

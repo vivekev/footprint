@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Digital Security Footprint " max_length="40" name="x_94170_footprint_digital_decurity_foot_print" type="collection">
+        <element label="Do not share confidential documents with personal id's or unapproved SaaS offeri" max_length="40" name="confidential_account" type="boolean"/>
+        <element label="Disable/Rename built-in or default accounts" max_length="40" name="default_account" type="boolean"/>
+        <element label="Domain" max_length="50" name="domain" reference_qual="domainISNOTEMPTY^EQ" reference_qual_condition="domainISNOTEMPTY^EQ" type="string"/>
+        <element label="Enable two or multi factor authentication on critical accounts " max_length="40" name="mutlifractor_account" type="boolean"/>
+        <element label="Never use shared accounts or share passwords" max_length="40" name="shared_password" type="boolean"/>
+        <element display="true" label="Squad" max_length="80" name="squad" reference_qual="squadISNOTEMPTY^EQ" reference_qual_condition="squadISNOTEMPTY^EQ" type="string"/>
+        <element label="Ensure passwords are strong and don't default to the default" max_length="40" name="strong_password" type="boolean"/>
+        <element label="Sub domain" max_length="50" name="sub_domain" reference_qual="sub_domainISNOTEMPTY^EQ" reference_qual_condition="sub_domainISNOTEMPTY^EQ" type="string"/>
+        <element label="Tribe" max_length="50" name="tribe" reference_qual="tribeISNOTEMPTY^EQ" reference_qual_condition="tribeISNOTEMPTY^EQ" type="string"/>
+        <element label="Review and Remove unneeded accounts" max_length="40" name="unneed_account" type="boolean"/>
+        <element label="Store passwords in IBM approved encrypted password vault (e.g. 1Password@IBM)" max_length="40" name="vault_password" type="boolean"/>
+        <index name="index">
+            <element name="squad"/>
+        </index>
+        <index name="index2">
+            <element name="tribe"/>
+        </index>
+        <index name="index3">
+            <element name="domain"/>
+        </index>
+        <index name="index4">
+            <element name="sub_domain"/>
+        </index>
+    </element>
+</database>

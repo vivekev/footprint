@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	
+	c.hasSubmitted = false;
+	
+	c.data.shared_password = false;	
+	c.data.default_account = false;
+	c.data.strong_password = false;
+	c.data.vault_password = false;
+	c.data.unneed_account = false;
+	c.data.mutlifractor_account = false;
+	c.data.confidential_account = false;
+	
+	c.submit = function(){
+		c.data.domain = $('#domain').select2('val');
+		c.data.sub_domain = $('#subdomain').select2('val');
+		c.data.tribe = $('#tribe').select2('val');
+		c.data.squad = $('#squad').select2('val');
+		
+		inserfootprint(c.data);
+	}
+	
+	inserfootprint = function(data) {
+		c.server.get({
+			action: 'inserfootprint',
+			data: data
+		}).then(function(r) {
+			console.log(r);
+			c.hasSubmitted = true;
+		});
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.top-buffer { margin-top:20px; }
+.col-margin {margin-right:15px;}
+
+h1 {
+color:#8bdb2e;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>security footprint actions</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	if(input && input.action == "inserfootprint" && input.data){		
+		var grfootprint = new GlideRecord('x_94170_footprint_digital_decurity_foot_print');
+		grfootprint.initialize();
+		grfootprint.domain = input.data.domain;        
+		grfootprint.sub_domain = input.data.sub_domain;
+		grfootprint.tribe = input.data.tribe;
+		grfootprint.squad = input.data.squad;
+		grfootprint.shared_password = input.data.shared_password;
+		grfootprint.default_account = input.data.default_account;
+		grfootprint.strong_password = input.data.strong_password;
+		grfootprint.vault_password = input.data.vault_password;
+		grfootprint.unneed_account = input.data.unneed_account;
+		grfootprint.mutlifractor_account = input.data.mutlifractor_account;
+		grfootprint.confidential_account = input.data.confidential_account;
+		grfootprint.insert();
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-18 07:01:10</sys_created_on>
+        <sys_id>8a7dab5a2f781010788b4f2e2c99b66e</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>security footprint actions</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sp_widget_8a7dab5a2f781010788b4f2e2c99b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 12:04:27</sys_updated_on>
+        <template><![CDATA[<div class="container">
+  <div ng-show="!c.hasSubmitted">
+    <div class="row">
+        <div class="col-md-2 col-margin">
+          <div class="row">
+            <label class="control-label required">Domain</label>
+            <sn-record-picker id="domain" field="domain" table="'x_94170_footprint_members_footprint'" display-field="'domain'" value-field="'domain'" search-fields="'domain'" page-size="100" default-query="'domainISNOTEMPTY'"></sn-record-picker>
+          </div>
+          <div class="row">
+            <label class="control-label required">SubDomain</label>
+            <sn-record-picker id="subdomain" field="sub_domain" table="'x_94170_footprint_members_footprint'" display-field="'sub_domain'" value-field="'sub_domain'" search-fields="'sub_domain,domain'" page-size="100" default-query="'sub_domainISNOTEMPTY'"></sn-record-picker>
+         </div>
+         <div class="row">
+          <label class="control-label required">Tribe</label>
+          <sn-record-picker id="tribe" field="tribe" table="'x_94170_footprint_members_footprint'" display-field="'tribe'" value-field="'tribe'" search-fields="'tribe'" page-size="500" default-query="'tribeISNOTEMPTY'"></sn-record-picker>
+         </div>
+         <div class="row">
+          <label class="control-label required">Squad</label>
+          <sn-record-picker id="squad" field="squad" table="'x_94170_footprint_members_footprint'" display-field="'squad'" value-field="'squad'" search-fields="'squad'" page-size="200" default-query="'squadISNOTEMPTY'"></sn-record-picker>
+         </div>
+        </div>
+        <div class="col-md-4 col-margin">
+          <div class="row top-buffer">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" ng-model="c.data.shared_password" class="custom-control-input" id="never-use-shared-accounts">
+              <label class="custom-control-label" for="never-use-shared-accounts">Never use shared accounts or share passwords.</label>
+            </div>
+          </div>
+          <div class="row top-buffer">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" ng-model="c.data.default_account" class="custom-control-input" id="disable-account">
+              <label class="custom-control-label" for="disable-account">Disable/Rename built-in or default accounts.</label>
+            </div> 
+          </div>
+          <div class="row top-buffer">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" ng-model="c.data.strong_password" class="custom-control-input" id="default-password">
+              <label class="custom-control-label" for="default-password">Ensure passwords are strong and don’t default to the default.</label>
+            </div>
+          </div>
+          <div class="row top-buffer">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" ng-model="c.data.vault_password" class="custom-control-input" id="store-encrypted-password">
+              <label class="custom-control-label" for="store-encrypted-password">Store passwords in IBM approved encrypted password vault (e.g. 1Password@IBM).</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+        <div class="row top-buffer">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" ng-model="c.data.unneed_account" class="custom-control-input" id="remove-unneeded-accounts">
+            <label class="custom-control-label" for="remove-unneeded-accounts">Review and Remove unneeded accounts.</label>
+          </div>
+        </div>
+        <div class="row top-buffer">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" ng-model="c.data.mutlifractor_account" class="custom-control-input" id="enable-multifactor-authentication">
+            <label class="custom-control-label" for="enable-multifactor-authentication">Enable two or multi factor authentication on critical accounts (i.e. admin credentials), if applicable.</label>
+          </div>
+        </div>
+        <div class="row top-buffer">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" ng-model="c.data.confidential_account" class="custom-control-input" id="dont-share-documents-with-personal">
+            <label class="custom-control-label" for="dont-share-documents-with-personal">Do not share confidential documents with personal id’s or unapproved SaaS offerings.</label>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="row top-buffer">
+      <button type="button" ng-click="c.submit()" class="btn btn-success float-right">Submit</button>
+    </div>
+  </div>
+  <div class="row text-center" ng-show="c.hasSubmitted">
+     <h1>Thank You</h1>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

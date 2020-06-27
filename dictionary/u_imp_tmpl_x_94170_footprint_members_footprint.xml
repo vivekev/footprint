@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 94170 Footprint Members Footprint" max_length="40" name="u_imp_tmpl_x_94170_footprint_members_footprint" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=squad" label="squad" max_length="60" name="u_squad" type="string"/>
+    </element>
+</database>

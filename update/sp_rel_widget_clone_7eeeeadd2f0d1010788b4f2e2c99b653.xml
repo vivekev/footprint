@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="testconfig">b2eeeadd2f0d1010788b4f2e2c99b651</child>
+        <cloned>2020-05-27 10:09:02</cloned>
+        <last_validated>2020-05-27 10:09:02</last_validated>
+        <parent display_value="Service Portal Config Overview">18923736673112008dd992a557415a82</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;sp_platform&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css&gt;$color_now: #E51B24;
+ 
+p {
+	color: #3A3F51;
+	font-size: 1.1em;
+	line-height: 1.6;
+}
+
+.color_box {
+	display: block;
+	position: relative;
+	padding: 20px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+	&amp;amp;:hover {
+		background-color: #E1E4E6;
+	}
+
+}
+
+h3 {
+	font-weight: 400;
+	padding: 0;
+	margin: 10px 0;
+	line-height: 1.4;
+	font-size: 22px;
+}
+
+.intro {
+	margin: 50px 0 25px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 25px;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+
+	&amp;amp; &amp;gt; div {
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		padding-right: 10px;
+
+		&amp;amp;:last-child {
+			padding-right: 0;
+		}
+
+		.text-primary {
+			background: rgba($brand-primary, 0.15);
+		}
+
+		.text-info {
+			background: rgba($brand-info, 0.15);
+		}
+
+		.text-success {
+			background: rgba($brand-success, 0.15);
+		}
+
+		.text-warning {
+			background: rgba($brand-warning, 0.15);
+		}    
+	}
+
+	&amp;amp; &amp;gt; div:hover {
+
+		p,
+		.fa-circle,
+		h3 {
+			color: #fff;
+		}
+
+		.text-primary {
+			background-color: $brand-primary;
+			.fa-inverse {
+				color: $brand-primary;
+			}
+		}
+
+		.text-info {
+			background-color: $brand-info;
+			.fa-inverse {
+				color: $brand-info;
+			}
+		}
+
+		.text-success {
+			background-color: $brand-success;
+			.fa-inverse {
+				color: $brand-success;
+			}
+		}
+
+		.text-warning {
+			background-color: $brand-warning;
+			.fa-inverse {
+				color: $brand-warning;
+			}
+		}
+    
+	}
+
+}
+
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;service-portal-config-overview&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Service Portal Config Overview&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// populate the 'data' object// e.g., data.table = $sp.getValue('table');]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-02-29 20:13:20&lt;/sys_created_on&gt;&lt;sys_id&gt;18923736673112008dd992a557415a82&lt;/sys_id&gt;&lt;sys_mod_count&gt;186&lt;/sys_mod_count&gt;&lt;sys_name&gt;Service Portal Config Overview&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal Configuration Pages" source="com.glide.service-portal.config"&gt;54db0d701c160010785061945362adf3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_18923736673112008dd992a557415a82&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-08 17:30:45&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="intro"&gt;
+    &lt;h1&gt;${Service Portal}&lt;/h1&gt;
+    &lt;h3&gt;${Create rich, engaging and modern experiences to help your business run better &lt;br&gt; Select one of the options below to continue}&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="flex"&gt;
+    &lt;div&gt;
+        &lt;a href="?id=branding_editor" class="color_box text-primary"&gt;
+            &lt;span class="fa fa-stack fa-2x"&gt; 
+          		&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+          		&lt;i class="fa fa-cog fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+          	&lt;/span&gt;
+            &lt;h3&gt;${Branding Editor}&lt;/h3&gt;
+            &lt;p&gt;${Customize your portal's title, logo and theme colors. Preview changes as you make them}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;a href="/$spd.do" class="color_box text-info" target="_blank"&gt;
+			&lt;span class="fa fa-stack fa-2x"&gt; 
+				&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+				&lt;i class="fa fa-th fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+			&lt;/span&gt;
+            &lt;h3&gt;${Designer} ➚&lt;/h3&gt;
+            &lt;p&gt;${Create and layout pages with drag-and-drop functionality. Preview pages as you make changes}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;a href="?id=page_edit" class="color_box text-success"&gt;
+            &lt;span class="fa fa-stack fa-2x"&gt; 
+            	&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+            	&lt;i class="fa fa-file fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+            &lt;/span&gt;
+            &lt;h3&gt;${Page Editor}&lt;/h3&gt;
+            &lt;p&gt;${Configure the properties of pages, containers and widgets from a map view}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;a href="?id=widget_editor" class="color_box text-primary"&gt;
+            &lt;span class="fa fa-stack fa-2x"&gt; 
+            	&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+            	&lt;i class="fa fa-list-alt fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+            &lt;/span&gt;
+            &lt;h3&gt;${Widget Editor}&lt;/h3&gt;
+            &lt;p&gt;${Create widgets from scratch or customize an existing one. Write HTML, CSS, and JavaScript with real-time preview}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;a href="?id=form&amp;table=sp_portal&amp;sys_id=-1" class="color_box text-info"&gt;
+            &lt;span class="fa fa-stack fa-2x"&gt; 
+            	&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+            	&lt;i class="fa fa-sitemap fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+            &lt;/span&gt;
+            &lt;h3&gt;${New Portal}&lt;/h3&gt;
+            &lt;p&gt;${Create a new Service Portal}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;a href="/api/now/v1/context_doc_url/CSHelp:Service-Portal" target="_blank" class="color_box text-warning"&gt;
+            &lt;span class="fa fa-stack fa-2x"&gt; 
+            	&lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; 
+            	&lt;i class="fa fa-question fa-stack-1x fa-inverse"&gt;&lt;/i&gt; 
+            &lt;/span&gt;
+            &lt;h3&gt;${Get Help} ➚&lt;/h3&gt;
+            &lt;p&gt;${Browse guides, tutorials and videos to learn how to set up, configure and customize your portals}&lt;/p&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;  
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 10:09:02</sys_created_on>
+        <sys_id>7eeeeadd2f0d1010788b4f2e2c99b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b2eeeadd2f0d1010788b4f2e2c99b651</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_7eeeeadd2f0d1010788b4f2e2c99b653</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 10:09:02</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

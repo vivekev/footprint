@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_94170_footprint.getEmpdeatils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getEmpdeatils</name>
+        <script><![CDATA[var getEmpdeatils = Class.create();
+getEmpdeatils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	getEmpdeatils:function()
+	{//gs.addInfoMessage('function called');
+		var userobj = new GlideRecord('x_94170_footprint_squad_members');
+		userobj.addQuery('emp_id', this.getParameter('sysparm_userID'));
+		//gs.addInfoMessage(' value of passed parameter'+ this.getParameter('sysparm_userID'));
+		userobj.query();
+		if(userobj.next())
+			{
+			//gs.addInfoMessage(' value of passed manager'+userobj.u_domain.getDisplayValue()) ;
+			return userobj.u_domain + ':' +userobj.u_subdomain + ':' +userobj.u_squad + ':' +userobj.u_lm + ':' +userobj.u_sm + ':' +userobj.u_thrid + ':' +userobj.fuctional_manager;
+		}
+	},
+	
+	type: 'getEmpdeatils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 08:29:10</sys_created_on>
+        <sys_id>3d3a9ea32f095010788b4f2e2c99b698</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>getEmpdeatils</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sys_script_include_3d3a9ea32f095010788b4f2e2c99b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-04 09:22:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">61e49b432ff01010788b4f2e2c99b66b</sp_column>
+        <sp_widget display_value="security footprint actions">8a7dab5a2f781010788b4f2e2c99b66e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-20 13:08:43</sys_created_on>
+        <sys_id>3ee45b432ff01010788b4f2e2c99b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sp_instance_3ee45b432ff01010788b4f2e2c99b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-20 13:08:43</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3ee45b432ff01010788b4f2e2c99b6ed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="footprint">811127522f781010788b4f2e2c99b6e4</application>
+        <file_path/>
+        <instance_id>573eb4fe6f1b3580869e7b2f5d3ee45a</instance_id>
+        <instance_name>dev15888</instance_name>
+        <name>sp_instance_3ee45b432ff01010788b4f2e2c99b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">61e49b432ff01010788b4f2e2c99b66b</sp_column><sp_widget display_value="security footprint actions">8a7dab5a2f781010788b4f2e2c99b66e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-20 13:08:43</sys_created_on><sys_id>3ee45b432ff01010788b4f2e2c99b6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package><sys_policy/><sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope><sys_update_name>sp_instance_3ee45b432ff01010788b4f2e2c99b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-20 13:08:43</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=3ee45b432ff01010788b4f2e2c99b6ed"/></record_update>]]></payload>
+        <payload_hash>769249429</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>811167522f781010788b4f2e2c99b60a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-20 13:08:43</sys_created_on>
+        <sys_id>fae45b432ff01010788b4f2e2c99b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172323351da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-20 13:08:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>36e45b4363f01010aa12b306c41d3def</update_guid>
+        <update_guid_history>36e45b4363f01010aa12b306c41d3def:769249429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ec419ec92f811010788b4f2e2c99b60c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-26 13:20:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6ab22f9f48c243fea0075c4422d2cc04</sys_id>
+        <sys_metadata>3ee45b432ff01010788b4f2e2c99b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_scope_delete display_value="">6b7c92e6baf345d6aea87b0b97949301</sys_scope_delete>
+        <sys_update_name>sp_instance_3ee45b432ff01010788b4f2e2c99b6ed</sys_update_name>
+        <sys_update_version display_value="sp_instance_3ee45b432ff01010788b4f2e2c99b6ed">fae45b432ff01010788b4f2e2c99b6ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-26 13:20:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_boolean_10" label="Review - Do you know the systems you use to build, test, run and support your so" language="en" table="x_94170_footprint_digital_footprint">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_10</element>
+            <help/>
+            <hint/>
+            <label>Review - Do you know the systems you use to build, test, run and support your so</label>
+            <language>en</language>
+            <name>x_94170_footprint_digital_footprint</name>
+            <plural>Review - Do you know the systems you use to build, test, run and support your so</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 09:00:35</sys_created_on>
+            <sys_id>cafb637b2f059010788b4f2e2c99b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Review - Do you know the systems you use to build, test, run and support your solution? Is 2fa implemented on all of them?</sys_name>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_documentation_x_94170_footprint_digital_footprint_u_boolean_10_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 09:00:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

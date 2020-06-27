@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_subdomain" table="x_94170_footprint_squad_members" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subdomain</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITSM and Devices@IBM</label>
+            <language>en</language>
+            <name>x_94170_footprint_squad_members</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 12:34:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7b98e932f8d1010788b4f2e2c99b66a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 12:34:28</sys_updated_on>
+            <value>ITSM and Devices@IBM</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subdomain</element>
+            <name>x_94170_footprint_squad_members</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 12:34:28</sys_created_on>
+            <sys_id>63b98e932f8d1010788b4f2e2c99b66b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subdomain</sys_name>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_choice_x_94170_footprint_squad_members_u_subdomain</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 12:34:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

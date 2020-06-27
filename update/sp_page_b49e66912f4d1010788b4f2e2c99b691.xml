@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_my_surveys_1</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description>List of all surveys assigned to the user</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-27 10:07:32</sys_created_on>
+        <sys_id>b49e66912f4d1010788b4f2e2c99b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_my_surveys_1</sys_name>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sp_page_b49e66912f4d1010788b4f2e2c99b691</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-27 10:07:32</sys_updated_on>
+        <title>Copy of Surveys (1)</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=b49e66912f4d1010788b4f2e2c99b691"/>
+</record_update>

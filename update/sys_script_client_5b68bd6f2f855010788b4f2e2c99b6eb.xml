@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>emp details</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Emp deatils</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	//g_form.addInfoMessage("loged user is"+g_user.userName);
+   //Type appropriate comment here, and begin script below
+
+
+
+   //Type appropriate comment here, and begin script below
+	var getEmpdeatils = new GlideAjax('getEmpdeatils');
+	
+	 getEmpdeatils.addParam('sysparm_name','getEmpdeatils');
+	
+	 getEmpdeatils.addParam('sysparm_userID',g_user.userName);
+	
+	 getEmpdeatils.getXML(populateEmpdeatils);
+
+
+
+	function populateEmpdeatils(response){
+		
+		var EmpdeatilsFromScriptInclude= response.responseXML.documentElement.getAttribute("answer");
+		//g_form.addInfoMessage("answer return vaues as"+EmpdeatilsFromScriptInclude);
+		var empdetails =  EmpdeatilsFromScriptInclude.split(':');
+		//g_form.clearValue('mail_id');
+		//g_form.clearValue('mamager');
+		g_form.setValue('domain',empdetails[0]);
+		g_form.setValue('u_domains',empdetails[0]);
+		g_form.setValue('u_subdomains',empdetails[1]);
+		g_form.setValue('u_squad',empdetails[2]);
+		g_form.setValue('u_l1_exe',empdetails[3]);
+		g_form.setValue('u_l2_exec',empdetails[4]);
+		g_form.setValue('u_l3_exce',empdetails[5]);
+		g_form.setValue('u_fuctional_manager',empdetails[6]);
+	
+	}
+   
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 05:58:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b68bd6f2f855010788b4f2e2c99b6eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Emp deatils</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+        <sys_update_name>sys_script_client_5b68bd6f2f855010788b4f2e2c99b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-04 09:22:08</sys_updated_on>
+        <table>x_94170_footprint_digital_footprint</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

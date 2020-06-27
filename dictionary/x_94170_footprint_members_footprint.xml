@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="members footprint" max_length="40" name="x_94170_footprint_members_footprint" type="collection">
+        <element display="true" label="Domain" max_length="40" name="domain" type="string"/>
+        <element label="Squad" max_length="40" name="squad" type="string"/>
+        <element label="Sub domain" max_length="40" name="sub_domain" type="string"/>
+        <element label="Tribe" max_length="40" name="tribe" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="test  squad" max_length="40" name="x_94170_footprint_test__squad" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FUNCTIONAL_MANAGER" label="FUNCTIONAL_MANAGER" max_length="40" name="u_functional_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L1_EXECUTIVE" label="L1_EXECUTIVE" max_length="40" name="u_l1_executive" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L2_EXECUTIVE" label="L2_EXECUTIVE" max_length="40" name="u_l2_executive" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=L3_EXECUTIVE" label="L3_EXECUTIVE" max_length="40" name="u_l3_executive" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SERIAL" label="SERIAL" max_length="40" name="u_serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WFM CIO Domain" label="WFM CIO Domain" max_length="40" name="u_wfm_cio_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WFM CIO Sub-Domain" label="WFM CIO Sub-Domain" max_length="40" name="u_wfm_cio_sub_domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WFM Squad" label="WFM Squad" max_length="40" name="u_wfm_squad" type="string"/>
+    </element>
+</database>

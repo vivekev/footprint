@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="792009432f811010788b4f2e2c99b623" sys_domain="global" table="x_94170_footprint_digital_footprint" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 12:34:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>862009432f811010788b4f2e2c99b625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_footprint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">792009432f811010788b4f2e2c99b623</sys_ui_form>
+            <sys_ui_section caption="Digital Cleaning" display_value="Digital Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">64ce7c8b2f411010788b4f2e2c99b645</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 12:34:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 12:34:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>462009432f811010788b4f2e2c99b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_footprint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">792009432f811010788b4f2e2c99b623</sys_ui_form>
+            <sys_ui_section caption="Digital FootPrint" display_value="Digital FootPrint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">b92009432f811010788b4f2e2c99b622</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 12:34:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 08:53:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c4a233b2f059010788b4f2e2c99b602</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_footprint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">792009432f811010788b4f2e2c99b623</sys_ui_form>
+            <sys_ui_section caption="Device Cleaning" display_value="Device Cleaning" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">004a233b2f059010788b4f2e2c99b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 08:53:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1daa73b2f059010788b4f2e2c99b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_footprint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">792009432f811010788b4f2e2c99b623</sys_ui_form>
+            <sys_ui_section caption="Collaboration Spaces" display_value="Collaboration Spaces" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">ddda673b2f059010788b4f2e2c99b627</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 08:55:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-04 09:00:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cafb637b2f059010788b4f2e2c99b6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_footprint" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">792009432f811010788b4f2e2c99b623</sys_ui_form>
+            <sys_ui_section caption="Infrastructure" display_value="Infrastructure" name="x_94170_footprint_digital_footprint" sys_domain="global" view="Default view">79fb637b2f059010788b4f2e2c99b6a9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-04 09:00:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_94170_footprint_digital_footprint</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 12:34:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>792009432f811010788b4f2e2c99b623</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_94170_footprint_digital_footprint</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_792009432f811010788b4f2e2c99b623</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 12:34:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

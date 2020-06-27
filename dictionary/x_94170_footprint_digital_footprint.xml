@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Digital footprint" max_length="40" name="x_94170_footprint_digital_footprint" type="collection">
+        <element label="Do not share confidential documents with personal id's or unapproved SaaS " max_length="40" name="confidentail_account" type="boolean"/>
+        <element label="Enable two or multi factor authentication on critical accounts " max_length="40" name="critical_account" type="boolean"/>
+        <element choice="1" label="Domain" max_length="40" name="domain" type="choice">
+            <choice/>
+        </element>
+        <element label="Ensure passwords are strong and don't default to the default" max_length="40" name="ensure_password" type="boolean"/>
+        <element choice="1" label="FLL" max_length="40" name="fll" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New URL" max_length="1024" name="httpsdev15888servicenowcom" type="url"/>
+        <element choice="1" label="SLL" max_length="40" name="sll" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Squad" max_length="40" name="squad" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Subdomain" max_length="40" name="subdomain" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Tribe" max_length="40" name="tribe" type="choice">
+            <choice/>
+        </element>
+        <element label="Review and Remove unneeded accounts." max_length="40" name="unneeded_account" type="boolean"/>
+        <element label="Update and patch your" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Review - Do you know the systems you use to build, test, run and support your so" max_length="40" name="u_boolean_10" type="boolean"/>
+        <element label="Review and update - Ensure only valid id’s are on the systems - remove old id’s," max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="Review and update - Ensure that all passwords are strong and always change defau" max_length="40" name="u_boolean_12" type="boolean"/>
+        <element label="Review and update - is the application, software &amp;  operating system at the late" max_length="40" name="u_boolean_13" type="boolean"/>
+        <element label="Are the applications and systems configured properly to limit access?" max_length="40" name="u_boolean_14" type="boolean"/>
+        <element label="Implement IBM security tools based on your role." max_length="40" name="u_boolean_2" type="boolean"/>
+        <element label="Extra Credit: It is also good time to look through what you have on your system " max_length="40" name="u_boolean_3" type="boolean"/>
+        <element label="Update and patch your applications." max_length="40" name="u_boolean_4" type="boolean"/>
+        <element label="Review documents and make sure that they are relevant and stored in the right pl" max_length="40" name="u_boolean_5" type="boolean"/>
+        <element label="Review data content and classification. Is the data important? Does it provide i" max_length="40" name="u_boolean_6" type="boolean"/>
+        <element label="Update access controls to only give access to those who need to know. The intran" max_length="40" name="u_boolean_7" type="boolean"/>
+        <element label="Close unmanaged communities transferring relevant data" max_length="40" name="u_boolean_8" type="boolean"/>
+        <element label="Never share or communicate passwords in communities!" max_length="40" name="u_boolean_9" type="boolean"/>
+        <element label="Disable/Rename built-in or default accounts." max_length="40" name="u_default_account" type="boolean"/>
+        <element label="Domain" max_length="40" name="u_domains" read_only="true" type="string"/>
+        <element label="Fuctional Manager" max_length="40" name="u_fuctional_manager" read_only="true" type="string"/>
+        <element label="New Icon" max_length="100" name="u_icon_2" type="icon"/>
+        <element label="FLL" max_length="40" name="u_l1_exe" read_only="true" type="string"/>
+        <element label="SLL" max_length="40" name="u_l2_exec" read_only="true" type="string"/>
+        <element label="L3 Exce" max_length="40" name="u_l3_exce" read_only="true" type="string"/>
+        <element label="Never use shared accounts or share passwords." max_length="40" name="u_share_password" type="boolean"/>
+        <element label="Squad" max_length="40" name="u_squad" read_only="true" type="string"/>
+        <element label="Sub Domain" max_length="40" name="u_subdomains" read_only="true" type="string"/>
+        <element label="Store passwords in IBM approved encrypted password vault (e.g. 1Password@IBM)." max_length="40" name="valut_password" type="boolean"/>
+    </element>
+</database>

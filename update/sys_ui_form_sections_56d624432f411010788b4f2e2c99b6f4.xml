@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="56d624432f411010788b4f2e2c99b6f4" sys_domain="global" table="x_94170_footprint_digital_decurity_foot_print" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:43:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6d624432f411010788b4f2e2c99b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_decurity_foot_print" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">56d624432f411010788b4f2e2c99b6f4</sys_ui_form>
+            <sys_ui_section caption="Digital Security Footprint (DSF)" display_value="Digital Security Footprint (DSF)" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">201115722ff45010788b4f2e2c99b693</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:43:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:43:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6d624432f411010788b4f2e2c99b6f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_94170_footprint_digital_decurity_foot_print" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">56d624432f411010788b4f2e2c99b6f4</sys_ui_form>
+            <sys_ui_section caption="Follow these actions to improve your DSF" display_value="Follow these actions to improve your DSF" name="x_94170_footprint_digital_decurity_foot_print" sys_domain="global" view="Default view">92d624432f411010788b4f2e2c99b6f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:43:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_94170_footprint_digital_decurity_foot_print</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 10:43:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56d624432f411010788b4f2e2c99b6f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_94170_footprint_digital_decurity_foot_print</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="footprint" source="x_94170_footprint">811127522f781010788b4f2e2c99b6e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="footprint">811127522f781010788b4f2e2c99b6e4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_56d624432f411010788b4f2e2c99b6f4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 10:43:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
